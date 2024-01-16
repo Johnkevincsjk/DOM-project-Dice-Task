@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice task</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div class="container my-3">
+        <div class="pageheader">
+            <h5>Let's Play Dice</h5>
+        </div>
+        <div class="playerturn">
+            <h3 id="players-turn">Player-1 To Play</h3>
+        </div>
+        <div class="row dice-main">
+            <div class="col-4 ">
+                <div class="player1">
+                    <h3>Player - 1</h3>
+                    <h2 id="player1-scores">0</h2>
+                    <button id="roll-dice1" type="button" class="btn btn-success">Play Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="dice-rolling">
+                    <h1 id="number-board1">0</h1>
+                    <h1 id="number-board2">0</h1>
+                </div>
+                <button id="reset-btn" style="margin-top: 80px;" type="button" class="btn btn-danger">Reset
+                    Game</button>
+            </div>
+            <div class="col-4">
+                <div class="player2">
+                    <h3>Player - 2</h3>
+                    <h2 id="player2-scores">0</h2>
+                    <button id="roll-dice2" type="button" class="btn btn-success">Play Now</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
